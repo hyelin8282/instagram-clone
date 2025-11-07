@@ -9,6 +9,18 @@ HTML/CSS 학습을 목적으로 하는 **Instagram UI 클론 코딩** 프로젝�
 * **반응형 디자인 (RWD) 적용:** Media Query를 활용하여 PC 및 모바일 환경에 최적화된 UI 제공.
 * **Git & Branch 관리:** Git Flow(간소화) 전략을 적용하여 기능별 브랜치 관리 연습.
 
+
+## 파일 구조
+```
+project-folder/
+├── index.html
+└── styles/
+    ├── 01-general.css    (공통 스타일: 폰트, reset 등)
+    ├── 02-pc-layout.css  (PC 레이아웃 전용)
+    ├── 03-mobile.css     (모바일 레이아웃 전용)
+    └── 04-components.css (버튼, 카드 등 공통 컴포넌트)
+```
+
 ## 레이아웃 구성
 
 프로젝트의 핵심 레이아웃은 **PC (Desktop)** 및 **모바일 (Mobile)** 환경에 따라 다르게 구성됩니다.
