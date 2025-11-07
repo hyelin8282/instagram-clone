@@ -13,17 +13,177 @@
 </head>
 
 <body>
-    <header class="header">
-    </header>
+    <div class="mobile-sidebar-container">
+        <header class="header">
+            <div class="header-left">
+                <a href="/" class="instagram-logo-link-moblie" aria-label="인스타그램 홈으로 이동">
+                    <img src="assets/icons/logo.svg" alt="인스타그램 로고" class="instagram-logo">
+                </a>
+            </div>
+
+            <div class="header-center">
+                <form action="/search" class="search-form" method="GET">
+                    <img src="assets/icons/search.svg" alt="돋보기 이미지" class="search-icon">
+                    <input type="text" class="search-bar" placeholder="검색" aria-label="검색어 입력" />
+                </form>
+            </div>
+
+            <div class="header-right">
+                <button class="header-notification-btn" aria-label="알림 보기">
+                    <img src="assets/icons/heart.svg" alt="알림 아이콘">
+                </button>
+            </div>
+        </header>
+
+        <nav class="bottom-nav-bar">
+        </nav>
+    </div>
 
     <div class="pc-sidebar-container">
         <nav class="sidebar-left">
+            <div class="instagram-logo-link-pc"></div>
+            <div class="sidebar-left-middle">
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/home.svg" alt="홈 아이콘" />
+                    <span>홈</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/messenger.svg" alt="검색 아이콘">
+                    <span>검색</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/bookmark.svg" alt="탐색탭 아이콘">
+                    <span>탐색 탭</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/reels.svg" alt="릴스 아이콘">
+                    <span>릴스</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/share.svg" alt="메시지 아이콘">
+                    <span>메시지</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/heart.svg" alt="알림 아이콘">
+                    <span>알림</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/moon.svg" alt="만들기 아이콘">
+                    <span>만들기</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/images/avatar.png" alt="프로필 아이콘">
+                    <span>프로필</span>
+                </a>
+            </div>
+            <div class="sidebar-left-bottom">
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/more.svg" alt="더보기 아이콘">
+                    <span>더 보기</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <img src="assets/icons/more.svg" alt="Meta의 다른 앱 아이콘">
+                    <span>Meta의 다른 앱</span>
+                </a>
+            </div>
         </nav>
+
         <aside class="sidebar-right">
-            <div class="user-status-card"></div>
-            <div class="recommend-list"></div>
-            <div class="footer-links"></div>
+            <div class="user-status-card">
+                <div class="user-avatar">
+                    <img src="assets/images/avatar.png" class="user-avatar-img">
+                </div>
+                <div class="user-info">
+                    <a class="user-info-id">heylin8282</a>
+                    <span class="user-info-name">Hyelin</span>
+                </div>
+                <div class="user-change">
+                    <button class="switch-change-btn">전환</button>
+                </div>
+            </div>
         </aside>
+
+        <div class="recommend-list">
+            <div class="recommend-header">
+                <div class="text1">
+                    <span class="recommend-text">회원님을 위한 추천</span>
+                </div>
+                <div class="text2">
+                    <button class="see-all-btn">모두 보기</button>
+                </div>
+            </div>
+            <div class="recommend-items">
+                <!-- user1 -->
+                <div class="user-status-card">
+                    <div class="user-avatar">
+                        <img src="assets/images/avatar.png" class="user-avatar-img">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-info-id">user-username1</span>
+                        <span class="user-info-name">사용자1</span>
+                    </div>
+                    <div class="user-change">
+                        <button class="switch-change-btn">팔로우</button>
+                    </div>
+                </div>
+                <!-- user2 -->
+                <div class="user-status-card">
+                    <div class="user-avatar">
+                        <img src="assets/images/avatar.png" class="user-avatar-img">
+                    </div>
+                    <div class="user-info">
+                        <span class="user-info-id">user-username2</span>
+                        <span class="user-info-name">사용자2</span>
+                    </div>
+                    <div class="user-change">
+                        <button class="switch-change-btn">팔로우</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-up">
+                    <ul>
+                        <li class="footer-link-items">
+                            <a href="#">소개</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">도움말</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">홍보 센터</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">API</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">채용 정보</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">약관</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">위치</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">인기 계정</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">해시태그</a>
+                        </li>
+                        <li class="footer-link-items">
+                            <a href="#">언어</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-down">
+                    <span>© 2025 Instagram Clone from ME</span>
+                </div>
+            </div>
+        </div>
     </div>
 
     <main class="content-main">
@@ -32,9 +192,6 @@
         <div class="feed-list-area">
         </div>
     </main>
-
-    <nav class="bottom-nav-bar">
-    </nav>
 
     <button class="fixed-message-btn">
     </button>
