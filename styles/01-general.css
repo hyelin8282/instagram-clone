@@ -1,0 +1,69 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* ===== Base ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fafafa;
+  color: #111;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* ===== Layout Wrapper ===== */
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.pc-sidebar-container {
+  display: contents;
+}
+
+.mobile-sidebar-container {
+  display: none;
+}
+
+.content-main {
+  padding: 20px;
+  flex: 1;
+}
+
+/* ===== Fixed Message Button ===== */
+.fixed-message-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0095f6;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

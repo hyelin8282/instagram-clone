@@ -1,0 +1,74 @@
+/* ===== PC Layout Container ===== */
+body {
+  display: grid;
+  grid-template-columns: 250px 1fr 300px;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+/* ===== Left Sidebar ===== */
+.sidebar-left {
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  grid-column: 1;
+  grid-row: 1;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+/* ===== Main Content ===== */
+.content-main {
+  max-width: 630px;
+  margin: 0 auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* ===== Right Sidebar ===== */
+.sidebar-right {
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  grid-column: 3;
+  grid-row: 1;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+}
+
+/* ===== Recommend List ===== */
+.recommend-list {
+  grid-column: 3;
+  grid-row: 1;
+  padding: 20px;
+  margin-top: 340px;
+}
+
+/* ===== 1300px 이하: LNB 축소 (아이콘만) ===== */
+@media (max-width: 1300px) {
+  body {
+    grid-template-columns: 80px 1fr 280px;
+  }
+
+  .sidebar-left {
+    padding: 10px;
+  }
+
+  .sidebar-left span {
+    display: none; /* 텍스트 숨김 */
+  }
+}
+
+/* ===== 1024px 이하: 오른쪽 사이드바 숨김 ===== */
+@media (max-width: 1024px) {
+  body {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .sidebar-right,
+  .recommend-list {
+    display: none;
+  }
+}

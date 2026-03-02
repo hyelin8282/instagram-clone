@@ -1,0 +1,152 @@
+/* ===== Story Area ===== */
+.story-area {
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  overflow-x: auto;
+}
+
+.story-item {
+  width: 70px;
+  text-align: center;
+}
+
+.story-item img {
+  border-radius: 50%;
+  border: 2px solid #f56040;
+  padding: 2px;
+}
+
+/* ===== Feed List ===== */
+.feed-list-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.feed-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.feed-header {
+  padding: 12px;
+  font-weight: 600;
+}
+
+.feed-image img {
+  width: 100%;
+}
+
+.feed-actions {
+  padding: 10px 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.feed-caption {
+  padding: 0 12px 12px;
+  font-size: 14px;
+}
+
+/* ===== User Status Card ===== */
+.user-status-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.user-avatar {
+  flex-shrink: 0;
+}
+
+.user-avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.user-info-id {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.user-info-name {
+  color: #999;
+  font-size: 12px;
+}
+
+.user-change {
+  flex-shrink: 0;
+}
+
+.switch-change-btn {
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* ===== Recommend List ===== */
+.recommend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recommend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recommend-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.see-all-btn {
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.recommend-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ===== Footer Links ===== */
+.footer-links {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+.footer-up ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-link-items a {
+  color: #999;
+  font-size: 11px;
+}
+
+.footer-down {
+  color: #999;
+  font-size: 11px;
+}
