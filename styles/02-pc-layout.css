@@ -1,11 +1,10 @@
 /* ===== PC Layout Container ===== */
-body {
-  display: grid;
+.pc-sidebar-container {
+  display: grid; 
   grid-template-columns: 250px 1fr 300px;
-  grid-template-rows: 1fr;
   gap: 20px;
-  padding: 20px;
-  max-width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 /* ===== Left Sidebar ===== */
@@ -48,7 +47,7 @@ body {
 
 /* ===== 1300px 이하: LNB 축소 (아이콘만) ===== */
 @media (max-width: 1300px) {
-  body {
+  .pc-sidebar-container {
     grid-template-columns: 80px 1fr 280px;
   }
 
@@ -63,7 +62,7 @@ body {
 
 /* ===== 1024px 이하: 오른쪽 사이드바 숨김 ===== */
 @media (max-width: 1024px) {
-  body {
+  .pc-sidebar-container {
     grid-template-columns: 80px 1fr;
   }
 

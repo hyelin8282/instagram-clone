@@ -33,13 +33,14 @@ img {
 }
 
 /* ===== Layout Wrapper ===== */
-body {
-  display: flex;
+html, body {
   min-height: 100vh;
 }
 
 .pc-sidebar-container {
-  display: contents;
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .mobile-sidebar-container {

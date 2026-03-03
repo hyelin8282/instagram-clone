@@ -1,25 +1,10 @@
-/* ===== 기본: 모바일 레이아웃 ===== */
+/* ===== 기본: PC 레이아웃 표시 ===== */
 .mobile-sidebar-container {
-  display: flex;
-  flex-direction: column;
+  display: none;
 }
 
 header,
 .bottom-nav-bar {
-  display: none;
-}
-
-body {
-  flex-direction: column;
-  grid-template-columns: none;
-  gap: 0;
-  padding: 0;
-}
-
-.pc-sidebar-container,
-.sidebar-left,
-.sidebar-right,
-.recommend-list {
   display: none;
 }
 
@@ -32,17 +17,16 @@ body {
     flex-direction: column;
   }
 
-  /* PC 레이아웃 숨김 */
-  .pc-sidebar-container {
+  .pc-sidebar-container,
+  .sidebar-left,
+  .sidebar-right,
+  .recommend-list {
     display: none;
   }
 
-  body {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: none;
-    gap: 0;
-    padding: 0;
+  /* PC 레이아웃 숨김 */
+  .pc-sidebar-container {
+    display: none;
   }
 
   /* ===== Header ===== */
