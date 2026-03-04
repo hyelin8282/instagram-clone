@@ -1,0 +1,39 @@
+/* =========================================
+   02-pc-layout.css : 기본 PC 레이아웃
+========================================= */
+
+/* 1. 모바일 전용 요소 숨기기 */
+.header,
+.bottom-nav-bar {
+    display: none; 
+}
+
+/* 2. 전체 레이아웃 (3열 배치 기본형) */
+body {
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;       
+}
+
+/* 3. 왼쪽 사이드바 */
+.sidebar-left {
+    width: 335px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 12px;
+    border-right: 1px solid var(--border-color);
+}
+
+/* 4. 중앙 메인 콘텐츠 (스토리 + 피드) */
+.content-main {
+    width: 100%;
+    max-width: 630px;
+    margin: 0 40px; 
+}
+
+/* 5. 오른쪽 사이드바 (추천, 내 정보) */
+.sidebar-right {
+    width: 383px;
+    margin-top: 36px;
+}

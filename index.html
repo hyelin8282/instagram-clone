@@ -13,95 +13,188 @@
 </head>
 
 <body>
-    <div class="mobile-sidebar-container">
-        <header class="header">
-            <div class="header-left">
-                <a href="/" class="instagram-logo-link-moblie" aria-label="인스타그램 홈으로 이동">
-                    <img src="assets/icons/logo.svg" alt="인스타그램 로고" class="instagram-logo">
-                </a>
-            </div>
+    <!-- Mobile Top -->
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="instagram-logo-link-moblie" aria-label="인스타그램 홈으로 이동">
+                <img src="assets/icons/logo.svg" alt="인스타그램 로고" class="instagram-logo">
+            </a>
+        </div>
 
-            <div class="header-center">
-                <form action="/search" class="search-form" method="GET">
-                    <img src="assets/icons/search.svg" alt="돋보기 이미지" class="search-icon">
-                    <input type="text" class="search-bar" placeholder="검색" aria-label="검색어 입력" />
-                </form>
-            </div>
+        <div class="header-center">
+            <form action="/search" class="search-form" method="GET">
+                <img src="assets/icons/search.svg" alt="돋보기 이미지" class="search-icon">
+                <input type="text" class="search-bar" placeholder="검색" aria-label="검색어 입력" />
+            </form>
+        </div>
 
-            <div class="header-right">
-                <button class="header-notification-btn" aria-label="알림 보기">
-                    <img src="assets/icons/heart.svg" alt="알림 아이콘">
-                </button>
-            </div>
-        </header>
+        <div class="header-right">
+            <button class="header-notification-btn" aria-label="알림 보기">
+                <img src="assets/icons/heart.svg" alt="알림 아이콘">
+            </button>
+        </div>
+    </header>
 
-        <nav class="bottom-nav-bar">
-        </nav>
-    </div>
+    
+    <!-- Mobile Bottom -->
+    <nav class="bottom-nav-bar">
+        <a href="#" class="nav-item"><img src="assets/icons/home.svg" alt="홈"></a>
+        <a href="#" class="nav-item"><img src="assets/icons/bookmark.svg" alt="탐색 탭"></a>
+        <a href="#" class="nav-item"><img src="assets/icons/reels.svg" alt="릴스"></a>
+        <a href="#" class="nav-item"><img src="assets/icons/add.svg" alt="만들기"></a>
+        <a href="#" class="nav-item"><img src="assets/images/avatar.png" alt="프로필" class="nav-avatar"></a>
+    </nav>
 
-    <div class="pc-sidebar-container">
-        <nav class="sidebar-left">
-            <div class="instagram-logo-link-pc"></div>
-            <div class="sidebar-left-middle">
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/home.svg" alt="홈 아이콘" />
-                    <span>홈</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/messenger.svg" alt="검색 아이콘">
-                    <span>검색</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/bookmark.svg" alt="탐색탭 아이콘">
-                    <span>탐색 탭</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/reels.svg" alt="릴스 아이콘">
-                    <span>릴스</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/share.svg" alt="메시지 아이콘">
-                    <span>메시지</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/heart.svg" alt="알림 아이콘">
-                    <span>알림</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/moon.svg" alt="만들기 아이콘">
-                    <span>만들기</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/images/avatar.png" alt="프로필 아이콘">
-                    <span>프로필</span>
-                </a>
-            </div>
-            <div class="sidebar-left-bottom">
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/more.svg" alt="더보기 아이콘">
-                    <span>더 보기</span>
-                </a>
-                <a href="#" class="sidebar-link">
-                    <img src="assets/icons/more.svg" alt="Meta의 다른 앱 아이콘">
-                    <span>Meta의 다른 앱</span>
-                </a>
-            </div>
-        </nav>
 
-        <aside class="sidebar-right">
-            <div class="user-status-card">
+    <!-- PC idebar-left -->
+    <nav class="sidebar-left">
+        <div class="instagram-logo-link-pc">
+            <a href="/" class="instagram-logo-link-pc" aria-label="인스타그램 홈으로 이동">
+                <svg class="instagram-svg-logo" aria-label="Instagram" fill="currentColor" role="img" viewBox="0 0 24 24">
+                    <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path>
+                </svg>
+            </a>
+        </div>
+        <div class="sidebar-left-middle">
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/home.svg" alt="홈 아이콘" />
+                <span>홈</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/messenger.svg" alt="검색 아이콘">
+                <span>검색</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/bookmark.svg" alt="탐색탭 아이콘">
+                <span>탐색 탭</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/reels.svg" alt="릴스 아이콘">
+                <span>릴스</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/share.svg" alt="메시지 아이콘">
+                <span>메시지</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/heart.svg" alt="알림 아이콘">
+                <span>알림</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/moon.svg" alt="만들기 아이콘">
+                <span>만들기</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/images/avatar.png" alt="프로필 아이콘">
+                <span>프로필</span>
+            </a>
+        </div>
+        <div class="sidebar-left-bottom">
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/more.svg" alt="더보기 아이콘">
+                <span>더 보기</span>
+            </a>
+            <a href="#" class="sidebar-link">
+                <img src="assets/icons/more.svg" alt="Meta의 다른 앱 아이콘">
+                <span>Meta의 다른 앱</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="content-main">
+        <div class="story-area">
+            <ul class="story-list">
+                <li class="story-item">
+                    <button class="story-btn">
+                        <div class="story-avatar-ring">
+                            <img src="assets/images/avatar.png" alt="스토리" class="story-img">
+                        </div>
+                        <span class="story-username">anonymous_ikmsang</span>
+                    </button>
+                </li>
+                <li class="story-item">
+                    <button class="story-btn">
+                        <div class="story-avatar-ring">
+                            <img src="assets/images/avatar.png" alt="스토리" class="story-img">
+                        </div>
+                        <span class="story-username">shuya_offi...</span>
+                    </button>
+                </li>
+                <li class="story-item">
+                    <button class="story-btn">
+                        <div class="story-avatar-ring">
+                            <img src="assets/images/avatar.png" alt="스토리" class="story-img">
+                        </div>
+                        <span class="story-username">n.mk0078</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    <div class="feed-list-area">
+            
+            <article class="feed-post">
+                <div class="feed-header">
+                    <div class="feed-author">
+                        <img src="assets/images/avatar.png" alt="프로필" class="feed-avatar">
+                        <div class="feed-author-text">
+                            <span class="feed-author-id">anonymous_ikmsang</span>
+                            <span class="feed-time">· 12시간</span>
+                        </div>
+                    </div>
+                    <button class="more-option-btn">
+                        <svg aria-label="옵션 더 보기" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
+                            <circle cx="12" cy="12" r="1.5"></circle>
+                            <circle cx="6" cy="12" r="1.5"></circle>
+                            <circle cx="18" cy="12" r="1.5"></circle>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="feed-image-wrap">
+                    <img src="assets/images/likestrawberries.jpg" alt="피드 이미지" class="feed-image">
+                </div>
+
+                <div class="feed-footer">
+                    <div class="feed-actions">
+                        <div class="feed-actions-left">
+                            <button><img src="assets/icons/heart.svg" alt="좋아요"></button>
+                            <button><img src="assets/icons/messenger.svg" alt="댓글"></button>
+                            <button><img src="assets/icons/share.svg" alt="공유"></button>
+                        </div>
+                        <div class="feed-actions-right">
+                            <button><img src="assets/icons/bookmark.svg" alt="저장"></button>
+                        </div>
+                    </div>
+
+                    <div class="feed-likes">
+                        좋아요 <strong>157</strong>개
+                    </div>
+
+                    <div class="feed-caption">
+                        <span class="feed-author-id">anonymous_ikmsang</span> 딸기조아🍓🍓
+                        <button class="more-caption-btn">... 더 보기</button>
+                    </div>
+                </div>
+            </article>
+            </div>
+    </main>
+
+        <!-- PC sidebar-right -->
+    <aside class="sidebar-right">
+        <div class="user-status-card">
+            <div class="user-status">
                 <div class="user-avatar">
                     <img src="assets/images/avatar.png" class="user-avatar-img">
                 </div>
                 <div class="user-info">
-                    <a class="user-info-id">heylin8282</a>
+                    <a href="/hyelin8282" class="user-info-id">heylin8282</a>
                     <span class="user-info-name">Hyelin</span>
                 </div>
                 <div class="user-change">
                     <button class="switch-change-btn">전환</button>
                 </div>
             </div>
-        </aside>
+        </div>
 
         <div class="recommend-list">
             <div class="recommend-header">
@@ -112,38 +205,41 @@
                     <button class="see-all-btn">모두 보기</button>
                 </div>
             </div>
-            <div class="recommend-items">
+            <div class="recommend-user">
                 <!-- user1 -->
-                <div class="user-status-card">
+                <div class="recommend-user-status-card">
                     <div class="user-avatar">
                         <img src="assets/images/avatar.png" class="user-avatar-img">
                     </div>
                     <div class="user-info">
-                        <span class="user-info-id">user-username1</span>
+                        <a href="/user-username1" class="user-info-id">user-username1</a>
                         <span class="user-info-name">사용자1</span>
                     </div>
                     <div class="user-change">
-                        <button class="switch-change-btn">팔로우</button>
+                        <button class="follow-btn">팔로우</button>
                     </div>
                 </div>
                 <!-- user2 -->
-                <div class="user-status-card">
+                <div class="recommend-user-status-card">
                     <div class="user-avatar">
                         <img src="assets/images/avatar.png" class="user-avatar-img">
                     </div>
                     <div class="user-info">
-                        <span class="user-info-id">user-username2</span>
+                        <a href="/user-username2" class="user-info-id">user-username2</a>
                         <span class="user-info-name">사용자2</span>
                     </div>
                     <div class="user-change">
-                        <button class="switch-change-btn">팔로우</button>
+                        <button class="follow-btn">팔로우</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="footer-links">
-                <div class="footer-up">
-                    <ul>
+
+        <div class="footer-links">
+            <div class="footer-up">
+                <nav class="footer-up">
+                    <ul class="footer-up-list">
                         <li class="footer-link-items">
                             <a href="#">소개</a>
                         </li>
@@ -178,20 +274,13 @@
                             <a href="#">언어</a>
                         </li>
                     </ul>
-                </div>
-                <div class="footer-down">
-                    <span>© 2025 Instagram Clone from ME</span>
-                </div>
+                </nav>
+            </div>
+            <div class="footer-down">
+                <span>© 2026.03. Instagram Clone</span>
             </div>
         </div>
-    </div>
-
-    <main class="content-main">
-        <div class="story-area">
-        </div>
-        <div class="feed-list-area">
-        </div>
-    </main>
+    </aside>
 
     <button class="fixed-message-btn">
     </button>
